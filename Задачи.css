@@ -1,0 +1,158 @@
+body {
+	background-color: #f5f7fa;
+	padding: 40px;
+}
+
+.container {
+	background-color: #fff;
+	box-shadow: 10px 10px 20px 0px hsla(0, 0%, 0%, 0.1);
+	display: flex;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* --LEFT- */
+.left-side {
+	color: #fff;
+	background-color: #1e2939;
+	width: 370px;
+	min-height: 370px;
+}
+.photo {
+	width: 370px;
+}
+.contacts-title {
+	color: #fff;
+	font-size: 22px;
+	line-height: 1.091;
+}
+.contacts-item {
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.714;
+}
+.contacts-link {
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.6;
+}
+.contacts-link:hover {
+	color: #ff6b08;
+	opacity: 1;
+}
+.photo,
+.contacts,
+.skills {
+	margin-bottom: 60px;
+}
+.contacts,
+.skills {
+	padding-left: 40px;
+}
+
+.skills-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.skills-item:before {
+	content: "\2022";
+	margin-right: 8px;
+	color: #ff6b08;
+	font-size: 18px;
+}
+
+/* --RIGHT- */
+.right-side {
+	width: 830px;
+	padding-left: 80px;
+	padding-right: 200px;
+	padding-top: 68px;
+	padding-bottom: 68px;
+}
+.bio-title {
+	font-size: 45px;
+	line-height: 2;
+	margin-bottom: 20px;
+}
+.bio-occupation {
+	margin-bottom: 27px;
+}
+.bio-title,
+.bio-occupation {
+	color: #2a2a2a;
+}
+
+.bio-occupation,
+.bio-about {
+	font-size: 14px;
+	line-height: 1.714;
+}
+.bio-about {
+	color: #595959;
+}
+
+.bio,
+.projects,
+.jobs,
+.education {
+	margin-bottom: 60px;
+}
+
+.projects-title {
+	font-size: 22px;
+	line-height: 1.091;
+	color: #2a2a2a;
+	margin-bottom: 14px;
+}
+
+.projects-link {
+	font-size: 14px;
+	line-height: 1.714;
+	color: #220fdc;
+}
+.projects-link:hover {
+	color: #ff6b08;
+}
+
+.jobs-title {
+	color: #2a2a2a;
+	font-size: 22px;
+	line-height: 1.091;
+	margin-bottom: 26px;
+}
+
+.jobs-occupation {
+	color: #2a2a2a;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 16px;
+}
+.accent {
+	color: #ff6b08;
+}
+
+.jobs-time {
+	color: #828282;
+	font-size: 12px;
+	line-height: 2;
+	margin-bottom: 18px;
+}
+
+.experience {
+	margin-bottom: 28px;
+}
+
+.experience-item {
+	color: #595959;
+	font-size: 14px;
+	line-height: 1.714;
+	margin-bottom: 10px;
+}
+
+.education-title {
+	color: #2a2a2a;
+	font-size: 22px;
+	line-height: 1.091;
+	margin-bottom: 26px;
+}
